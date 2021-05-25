@@ -15,7 +15,8 @@ public class Lesson_9 {
         for (String number: numbers) {
             sum += Integer.parseInt(number);
         }
-        System.out.println(sum);
+        System.out.println("Количество чисел - " + numbers.length);
+        System.out.println("Сумма чисел = " + sum);
         scanner.close();
     }
 }
